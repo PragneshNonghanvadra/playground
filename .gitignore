@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.yarn/
+.npm/
+
+# Build artifacts
+dist/
+build/
+.next/
+.turbo/
+.cache/
+out/
+coverage/
+*.tsbuildinfo
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+
+# Local data (labs may produce data dumps)
+*.sqlite
+*.sqlite3
+*.db
+data/local/
+tmp/
+
+# Python (some labs may use python)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Notebook outputs
+*.ipynb_checkpoints
+
+# Eval artifacts that shouldn't be committed by default
+evals/runs/
+benchmarks/results/

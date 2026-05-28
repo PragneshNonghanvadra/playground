@@ -1,0 +1,19 @@
+{
+  "name": "playground",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A long-term engineering learning lab. Markdown-first, modular, AI-agent friendly.",
+  "license": "UNLICENSED",
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "format": "prettier --write \"**/*.{md,json,ts,tsx,js,yml,yaml}\"",
+    "format:check": "prettier --check \"**/*.{md,json,ts,tsx,js,yml,yaml}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.3.0",
+    "typescript": "^5.5.0"
+  }
+}
