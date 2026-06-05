@@ -6,6 +6,7 @@ The knowledge base. Markdown-first. This is the most important folder in the rep
 
 - [`operating-system/`](operating-system/) — how I learn and decide. Principles, lifecycle, frameworks, checklists.
 - [`topics/`](topics/) — one folder per engineering area, with structured notes (mental model, tradeoffs, failure modes, interview notes, etc.). Index in [`topics/README.md`](topics/README.md).
+- [`tools/`](tools/) — deep-dives on specific tools and frameworks, studied independently. No prerequisite topic coverage required; connect to topics later. Index in [`tools/README.md`](tools/README.md).
 - [`architecture/`](architecture/) — ADRs, RFCs, diagrams, C4 models, tradeoff analyses.
 - [`interviews/`](interviews/) — interview-focused notes per area.
 - [`resources/`](resources/) — books, courses, blogs, papers, videos, repos.

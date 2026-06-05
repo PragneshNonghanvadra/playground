@@ -80,12 +80,13 @@ Sometimes I will only study and document a concept. Sometimes I will build a sma
 | `docs/`                  | Markdown-first knowledge base: topic notes, architecture, interviews, resources, glossary, concept map.                 |
 | `docs/operating-system/` | The "how I learn and decide" rules: principles, lifecycle, frameworks, checklists.                                      |
 | `docs/topics/`           | One folder per engineering area, with structured notes (mental model, tradeoffs, failure modes, interview notes, etc.). |
+| `docs/tools/`            | Deep-dives on specific tools/frameworks (GraphQL, Kafka, Prisma…), studied independently. Connect to topics later.      |
 | `docs/architecture/`     | ADRs, RFCs, diagrams, C4 models, tradeoff analyses.                                                                     |
 | `docs/interviews/`       | Interview-focused notes per area.                                                                                       |
 | `docs/resources/`        | Books, courses, blogs, papers, videos, repos.                                                                           |
 | `docs/glossary/`         | Shared vocabulary.                                                                                                      |
 | `docs/concept-map/`      | Cross-topic connections, open questions, learning backlog.                                                              |
-| `labs/`                  | Tiny, focused experiments grouped by topic.                                                                             |
+| `labs/`                  | Tiny, focused experiments grouped by topic or tool (`labs/tools/` for tool-specific labs).                              |
 | `apps/`                  | Placeholder UIs (web, admin, docs-site) for future product slices.                                                      |
 | `services/`              | Placeholder backend services (api, worker, ai-gateway, realtime, ingestion).                                            |
 | `packages/`              | Placeholder shared packages (ui, config, contracts, db, auth, observability, evals, agent-tools).                       |
